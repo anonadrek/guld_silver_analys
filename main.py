@@ -35,13 +35,16 @@ def main():
     # 6. Bearbeta data baserat på input
     result = analyzer.calculate_potential_buying_power(budget)
 
-    # 7. Skriv ut resultat
+# 7. Skriv ut resultat
     print("\n--- RESULTAT ---")
     print(f"För {budget} kr kan du köpa:")
     print(f"- {result['gold_grams']} gram Guld")
     print(f"- {result['silver_grams']} gram Silver")
     
-    logger.info("Analys klar. Avslutar programmet.")
+    logger.info("Analys klar.")
+    
+    # NYTT: Håll fönstret öppet
+    input("\nTryck på ENTER för att avsluta programmet...")
 
 if __name__ == "__main__":
     main()
