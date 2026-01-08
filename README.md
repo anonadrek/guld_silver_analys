@@ -12,5 +12,6 @@ Ett Python-program som analyserar relationen mellan guld- och silverpriser och h
 
 1. Klona repot:
    ```bash
-   git clone <DIN_GITHUB_LÄNK>
+   git clone <https://github.com/anonadrek/guld_silver_analys.git>
    cd guld_silver_analys
+
