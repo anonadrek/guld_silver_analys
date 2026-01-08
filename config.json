@@ -1,0 +1,5 @@
+{
+    "log_folder": "logs",
+    "data_file": "market_data.csv",
+    "app_name": "GoldSilverAnalyzer"
+}
